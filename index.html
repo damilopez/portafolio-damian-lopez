@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+            <link rel="stylesheet" href="assets/css/styles.css" />
+
+            <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png"/>
+            <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png"/>
+
+            <script src="https://kit.fontawesome.com/83e3a8168a.js" crossorigin="anonymous"></script>
+
+            <title>Damian Lopez | Web Developer</title>
+    </head>
+
+    <body>
+        <nav>
+            <h1>DAMIAN G. LOPEZ</h1>
+            <ul class="navegacion">
+                <li><a href="#aboutme" class="nav-link">Acerca de Mí</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="menu-hamburguesa" id="menu-hamburguesa">
+                <ion-icon class="barras" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" id="aboutme">
+            <img src="assets/images/Banner.jpg" alt="damian-lopez" loading="lazy" class="hero-img" data-aos="fade-right" data-aos-duration="2000"/>
+            <div class="bio" data-aos="fade-left" data-aos-duration="2500">
+                <h2 class="bio-titulo">Sobre Mí</h2>
+                <p>
+                    Soy proactivo y organizado, con una gran capacidad de trabajo en equipo. Disfruto de aprender cosas nuevas y mi
+                    objetivo principal es poder compartir mi experiencia y a la vez adquirir nuevos conocimientos.
+                </p>
+            </div>
+        </section>
+
+        <!-- More about -->
+        <section class="more-about">
+            <h2>Más sobre mí</h2>
+            <p>
+                Desde muy joven me cautivó la informatica y, aunque hasta la adultez era solo un hobbie, intentar comprender como funcionaban
+                los viedojuegos que disfrutaba fueron los primeros pasos para adentrarme en el mundo de la programación.
+            </p>
+            <p>
+                Me inicié con un curso intensivo de Java, el cual por distintas razones tuve que abandonar, pero descubrí que el pensamiento
+                lógico era algo con lo que siempre habia contado y la forma estructurada de resolver problemas no me resultó dificil de integrar.
+                Luego continué estudiando de manera autodidacta por un tiempo.
+            </p>
+            <p>
+                Actualmente he podido aprobar un curso de Diseño de Videojuegos (utilizando Unity y C# con POO) en el cual logre desarrollar 
+                un videojuego desde cero, y mas recientemente el curso con el que habia empezado mi camino, de programador FullStack con Java.
+                En este ultimo obtuve herramientas de sistemas de control de versiones (GitHub), de Front-End (HTML, CSS, Bootstrap, JavaScript) y
+                Back-End (MySQL y Java), logrando completar una aplicacion web "CRUD" (Create, Read, Update, Delete) en la cual integro todos estos conocimientos.
+            </p>
+        </section>
+
+        <!-- Skills section -->
+        <section class="habilidades" id="skills">
+            <h2 class="header-habilidadr">Mis mejores habilidades</h2>
+
+            <div class="contenedor-habilidades">
+                <div class="first-set" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icono tarjeta-icono"/>
+                    <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icono tarjeta-icono"/>
+                    <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icono tarjeta-icono"/>
+                </div>
+
+                <div class="second-set" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icono tarjeta-icono"/>
+                    <img src="assets/icons/icons8-java.svg" alt="" loading="lazy" class="icono tarjeta-icono"/>
+                    <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icono tarjeta-icono"/>
+                </div>
+
+                <div class="second-set" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="assets/icons/icons8-mysql.svg" alt="" loading="lazy" class="icono tarjeta-icono"/>
+                    <img src="assets/icons/icons8-CSharp.svg" alt="" loading="lazy" class="icono tarjeta-icono"/>
+                    <img src="assets/icons/icons8-unity.svg" alt="" loading="lazy" class="icono tarjeta-icono"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Algunos de mis proyectos</h2>
+            <div class="projects-container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
+                <div class="project-container project-card">
+                    <div class="carousel">
+                        <div class="carousel__contenedor">
+                            <button aria-label="Anterior" class="carousel__anterior">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <div class="carousel__lista">
+                                <div class="carousel__elemento">
+                                    <a href="assets/images/CRUD-Screen-2.jpg" target="_blank">
+                                        <img src="assets/images/CRUD-Screen-2.jpg" alt="img2" id="img2">
+                                    </a>
+                                </div>
+                                <div class="carousel__elemento">
+                                    <a href="assets/images/CRUD-Screen-1.jpg" target="_blank">
+                                        <img src="assets/images/CRUD-Screen-1.jpg" alt="img1" id="img1">
+                                    </a>
+                                </div>
+                                <div class="carousel__elemento">
+                                    <a href="assets/images/CRUD-Screen-3.jpg" target="_blank">
+                                        <img src="assets/images/CRUD-Screen-3.jpg" alt="img3" id="img3">
+                                    </a>
+                                </div>
+                                <div class="carousel__elemento">
+                                    <a href="assets/images/CRUD-Screen-4.jpg" target="_blank">
+                                        <img src="assets/images/CRUD-Screen-4.jpg" alt="img4" id="img4">
+                                    </a>
+                                </div>
+                                <div class="carousel__elemento">
+                                    <a href="assets/images/CRUD-Screen-5.jpg" target="_blank">
+                                        <img src="assets/images/CRUD-Screen-5.jpg" alt="img5" id="img5">
+                                    </a>
+                                </div>
+                            </div>
+        
+                            <button aria-label="Siguente" class="carousel__siguiente">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+        
+                        <div role="tablist" class="carousel__indicadores"></div>
+                    </div>
+                    <h3 class="project-title">CRUD de Alumnos</h3>
+                    <p class="project-details">
+                    Una aplicación CRUD (Create, Read, Update, Delete) de alumnos.
+                    Como su nombre en ingles lo indica permite agregar, ver,
+                    modificar y eliminar alumnos (y su informacion) de una base de
+                    datos con una interfaz sencilla y amigable con el usuario.
+                    </p>
+                    <a href="https://github.com/damilopez/crud-cac-alumnos" target="_blank" class="project-link">Ver Repositorio</a>
+                </div>
+                <!--
+                <div class="project-container project-card">
+                    <img src="assets/images/netflixClone.png" alt="netflix-clone" loading="lazy" class="project-pic"/>
+                    <h3 class="project-title">Netflix Clone</h3>
+                    <p class="project-details">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                    ratione vel inventore labore commodi modi quos culpa aut saepe!
+                    Alias!
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Check it Out</a>
+                </div>
+                -->
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contacto" id="contacto">
+            <h2>Contactame</h2>
+            <div class="contenedor-formulario-contacto" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200" >
+                <div class="formulario-contacto">
+                    <form action="https://formspree.io/f/xyylngw" method="POST">
+                        <div class="control-formulario">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="sender-name" placeholder="Escribe tu nombre" class="input-field" required/>
+                        </div>
+                        <div class="control-formulario">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="sender-email" placeholder="Ingreso tu correo electrónico" class="input-field" required/>
+                        </div>
+                        <div class="control-formulario">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" cols="60" rows="10" placeholder="Escribe tu mensaje" name="mensaje" class="input-field" required></textarea>
+                        </div>
+                        <input type="submit" value="Enviar" id="submit-btn" class="submit-btn"/>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social accounts - Fixed to the right -->
+        <div class="sociales">
+            <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon"/></a>
+            <a href="https://www.linkedin.com/in/damian-gabriel-lopez-34328621a/" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon"/></a>
+            <a href="https://github.com/damilopez" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"/></a>
+        </div>
+
+        <!-- Footer section -->
+        <footer>
+            <p class="copy">&copy; Copyright 2023</p>
+            <p class="copy">
+                Realizado por Damian Lopez.
+            </p>
+        </footer>
+
+        <script src="assets/js/app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init();</script>
+    </body>
+</html>
