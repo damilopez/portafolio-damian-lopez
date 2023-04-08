@@ -353,9 +353,111 @@ footer {
     right: 0.5%;
     bottom: 3%;
     cursor: pointer;
-  }
-  
-  .flecha-arriba {
+}
+
+.flecha-arriba {
     width: 3rem;
     height: 3rem;
-  }
+}
+
+@media screen and (max-width: 720px) {
+    nav {
+        padding: 1.5rem 1rem;
+    }
+
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 86px;
+        right: 3%;
+        width: 50%;
+        text-align: center;
+        transform: translateX(200%);
+        transition: transform 0.5s ease-in;
+    }
+
+    nav ul li {
+        margin: 8px;
+    }
+
+    .menu-hamburguesa {
+        display: block;
+    }
+    
+    nav ul.show {
+        transform: translateX(0);
+    }
+
+    .hero {
+        margin-top: 1rem;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero img {
+            height: 15rem;
+            width: 30rem;
+    }
+
+    .bio {
+        margin-top: 2rem;
+        width: 75%;
+        text-align: center;
+    }
+
+    .more-about {
+        margin-top: 2rem;
+        padding: 1rem 4rem;
+    }
+
+    .more-about h2 {
+        text-align: center;
+    }
+
+    .more-about p {
+        text-align: justify;
+    }
+
+    .icono {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .project-container {
+        width: 70%;
+    }
+
+    .contenedor-formulario-contacto {
+        max-width: 23.75rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .hero img {
+        height: 11rem;
+        width: 23rem;
+    }
+
+    .bio {
+        width: 18.3rem;
+    }
+
+    .icono {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .project-container {
+        width: 17.875rem;
+    }
+
+    .contenedor-formulario-contacto {
+        max-width: 17.75rem;
+    }
+}
